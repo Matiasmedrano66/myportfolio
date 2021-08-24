@@ -10,12 +10,12 @@ let screenHeight = window.innerHeight;
 
 window.onresize = () => {
     screenHeight = window.innerHeight;
-    console.log("about")
+   
 }
 
 
 
-const divHeight = {height: screenHeight * 0.8};
+const divHeight = {height: screenHeight * 0.5};
 
 return(
     <div style={divHeight} name="home" id="home" className="home" >
