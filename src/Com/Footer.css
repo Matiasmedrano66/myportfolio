@@ -1,5 +1,6 @@
 .Footer p  {
-    font-size: 15px;
+    font-size: 20px;
+    color: white;
 }
 
 .Footer {
@@ -9,6 +10,6 @@
 
 @media (max-width: 992px) {
     .Footer p  {
-        font-size: 12px;
+        font-size: 13px;
     }
 }

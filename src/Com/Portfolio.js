@@ -14,7 +14,7 @@ const Portfolio = () => {
     return (
         <div name="portfolio" id="portfolio" className='portfolio'>
             <h1>Portfolio</h1>
-            <p className="white-text">Take a look at some of my projects!</p>
+            <p className="white-text">A small gallery of some of my projects. Take a look!</p>
 
             <div class="row project-group">
             { projects.map(project => {

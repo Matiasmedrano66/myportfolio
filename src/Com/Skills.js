@@ -3,18 +3,18 @@ import './Skills.css';
 const Skills = () => {
 
     const skillsRate = [
-        {name: "HTML", rate: "80%"},
-        {name: "Css", rate: "80%"},
-        {name: "Bootstrap", rate: "75%"},
+        {name: "HTML", rate: "90%"},
+        {name: "Css", rate: "90%"},
+        {name: "Bootstrap", rate: "80%"},
         {name: "Javascript", rate: "90%"},
-        {name: "React.js", rate: "70%"},
-        {name: "SQL", rate: "70%"},
+        {name: "React.js", rate: "80%"},
+        {name: "SQL", rate: "80%"},
         {name: "MongoDB", rate: "65%"},
-        {name: "Node.js", rate: "40%"},
-        {name: "Express", rate: "40%"},
-        {name: "C#", rate: "40%"},
+        {name: "Node.js", rate: "50%"},
+        {name: "Express", rate: "50%"},
+        {name: "C#", rate: "60%"},
         {name: "OOP", rate: "60%"},
-        {name: "Git", rate: "50%"},
+        {name: "Git", rate: "60%"},
     ];
 
     return ( 

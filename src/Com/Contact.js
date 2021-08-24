@@ -14,16 +14,16 @@ const Contact = () => {
         }
 
     return (
-        <div name="contact" id="contact"  className='Contact'>
+        <div name="contact" id="contact"  className='contact'>
             <h1>Contact me</h1>
             <div className='contact-container'>          
                 <div className='row'>
                     <div className='col-lg-6 col-sm-12'>
-                        <h4> Email:</h4>  
+                        <h3> Email:</h3>  
                         <a href = "mailto: matiasmedrano@hotmail.com"><i class="bi bi-mailbox"></i></a> 
                         <h6>matiasmedrano@hotmail.com</h6>
                         <br />
-                        <h4>Whatsapp:</h4>
+                        <h3>Whatsapp:</h3>
                         <a class="whatsappLink mobile" href="whatsapp://send?text=Hello Matías! I ..&phone=+543515159949&abid=+543515159949"><i class="bi bi-whatsapp"></i> </a>
                         <a class="whatsappLink desktop" href="http://web.whatsapp.com/send?text=Hola Matías! Quiero contactarme contigo..&phone=+543515159949&abid=+543515159949"><i class="bi bi-whatsapp"></i></a>  
                         <h6>+543515159949</h6>

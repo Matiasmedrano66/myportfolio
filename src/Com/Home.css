@@ -2,10 +2,13 @@
 
 .home {
   text-align: center;
-  width: 50%;
-  margin:15% 25%;
+  width: 60%;
+  margin:5% 20%;
+  padding: 5%;
   color: #393E46;
-
+  background-color: rgba(253, 253, 253, 0.8);
+  border-radius: 2%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 h1 {
@@ -16,7 +19,10 @@ h1 {
 
 @media (max-width: 992px) {
 .home{
-    margin-top: 40%;
+    margin-top: 20%;
+}
+.main-title{
+  margin-bottom: 15%;
 }
 .home-subtitle{
     font-size: 100%;
@@ -39,7 +45,7 @@ h1 {
 
   
  .home-subtitle {
-     font-size: 120%;
+     font-size: 140%;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid orange; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
@@ -59,4 +65,44 @@ h1 {
   @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: orange; }
+  }
+
+  .main-title {
+    position: relative;
+    font-family: 'Rampart One', cursive;    text-transform: uppercase;
+    letter-spacing: 15px;
+    color: #0e3742;
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+    line-height: 1em;
+    outline: none;
+    animation: text 3s linear infinite;
+   font-weight: 600;
+  }
+  ::selection {
+    color: currentColor;
+    background-color: #03bcf422;
+  }
+  @keyframes text {
+    0%,
+    18%,
+    20%,
+    50.1%,
+    60%,
+    65.1%,
+    80%,
+    90.1%,
+    92% {
+      color: #00ADB5;
+      text-shadow: 0 0 5px #00ADB5;
+    }
+   
+    80.1%,
+    90%,
+    92.1%,
+    100% {
+      color: #dffafc;
+      text-shadow: 0 0 10px #fddc9dee, 0 0 20px #fddc9dee, 0 0 40px #fddc9dee,
+        0 0 80px #fddc9dee, 0 0 160px #fddc9dee;
+    }
   }
