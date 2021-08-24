@@ -15,7 +15,7 @@ window.onresize = () => {
 
 
 
-const divHeight = {height: screenHeight * 0.9};
+const divHeight = {height: screenHeight * 0.8};
 
 return(
     <div style={divHeight} name="home" id="home" className="home" >

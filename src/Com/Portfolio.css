@@ -15,6 +15,13 @@
     margin-top: 5px;
 }
 
+@media (max-width: 992px) {
 
+    .portfolio {
+        min-width: 80%;
+        margin: 5%;
+    }
+
+}
 
 
