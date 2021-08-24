@@ -1,10 +1,12 @@
 .skills {
-    margin: 5% 15% 10%;
+    margin: 5% 10% 10%;
     background-color: rgba(228, 216, 220, 0.8);
     border-radius: 2%;
     opacity: 0.9;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 5% 10%;
+    min-width: 80%;
+
 }
 
 .skill-bar {
@@ -22,6 +24,10 @@
     .skills-bar-group{
         width: 100%;
      
+    }
+    .skills {
+        min-width: 90%;
+        margin:5%;
     }
 }
 

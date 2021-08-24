@@ -2,8 +2,8 @@
 
 .home {
   text-align: center;
-  width: 60%;
-  margin:5% 20%;
+  min-width: 80%;
+  margin:5% 10%;
   padding: 5%;
   color: #393E46;
   background-color: rgba(253, 253, 253, 0.8);
@@ -19,9 +19,9 @@ h1 {
 
 @media (max-width: 992px) {
 .home{
-  margin:10% ;
-  width: 80%;
-  height: 40%;
+  margin:10% 5% 5% 5% ;
+  width: 90%;
+
 }
 .main-title{
   margin-bottom: 15%;

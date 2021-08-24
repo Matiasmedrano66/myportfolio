@@ -1,9 +1,10 @@
 .contact {
-    margin: 10% 15%;
+    margin: 10% 10%;
     padding: 5%;
     background-color: rgba(228, 216, 220, 0.8);
     border-radius: 2%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    min-width: 80%;
 }
 
 
