@@ -10,8 +10,7 @@ const Contact = () => {
             setMessage({name: document.getElementById("name").value, 
                         message: document.getElementById("message").value,
                         subject: document.getElementById("subject").value,
-                        email: document.getElementById("email").value });
-         
+                        email: document.getElementById("email").value });       
         }
 
     return (
