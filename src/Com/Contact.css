@@ -30,6 +30,10 @@ h3{
    
   }
   @media(max-width:992px){
+      .contact{
+        margin:5% ;
+        width: 90%;
+      }
     .whatsappLink.desktop {
       display: none;
       

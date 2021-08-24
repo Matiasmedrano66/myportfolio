@@ -19,7 +19,9 @@ h1 {
 
 @media (max-width: 992px) {
 .home{
-    margin-top: 20%;
+  margin:10% ;
+  width: 80%;
+  height: 40%;
 }
 .main-title{
   margin-bottom: 15%;
@@ -104,5 +106,13 @@ h1 {
       color: #dffafc;
       text-shadow: 0 0 10px #fddc9dee, 0 0 20px #fddc9dee, 0 0 40px #fddc9dee,
         0 0 80px #fddc9dee, 0 0 160px #fddc9dee;
+    }
+  }
+
+  @media (max-width: 350px) {
+    .home{
+      margin:5% ;
+      width: 90%;
+      height: 40%;
     }
   }
