@@ -1,0 +1,86 @@
+.Contact {
+    margin: 10% 20%;
+    
+}
+
+.contact-container {
+    text-align: left;
+}
+
+h1 {
+    margin-bottom: 10%;
+}
+
+h6 {
+    color: #393E46;
+    font-style: italic;
+    font-weight:normal;
+   
+}
+h4{
+    text-decoration: none;
+}
+.whatsappLink.mobile{
+    display: none;
+   
+  }
+  @media(max-width:992px){
+    .whatsappLink.desktop {
+      display: none;
+      
+    }
+    .whatsappLink.mobile{
+      display: inline;
+    
+    }
+  }
+  .contact-text {
+      text-align: left;
+  }
+
+  .computer-image {
+      width: 80%;
+      border-radius: 10px;
+      margin-top: 2%;
+      opacity: 0.9;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  @media (max-width: 992px) {
+
+    .computer-image  {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 360px){
+    .computer-image  {
+        display: none;
+    }
+}
+
+
+.red{
+    color:red;
+    }
+.form-area
+{
+    background-color: #FAFAFA;
+	padding: 10px 40px 60px;
+	margin: 10px 0px 60px;
+    background-color: #4f5661;
+    padding: 10%;
+    border-radius: 2%;
+    opacity: 0.9;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	}
+
+.form-group {
+    margin-top: 2%;
+}
+
+.sub-contact-btn {
+    margin-top: 2%;
+    
+}

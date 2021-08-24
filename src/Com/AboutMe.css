@@ -1,0 +1,71 @@
+.about {
+    margin: 10% 20% ;
+    background-color: #4f5661;
+    padding: 10%;
+    border-radius: 2%;
+    opacity: 0.9;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+
+
+p {
+    text-align: left;
+
+}
+.presentation {
+  margin-top: 5%;
+  float:right;
+}
+
+.img_presentation{
+    float:right;
+    margin-top: 2%;
+
+}
+
+.white-text {
+    color: white;
+}
+
+.myphoto-image {
+    border-radius: 40%;
+    width: 60%;
+    filter: opacity(90%);
+}
+
+
+@media (min-width: 992px) {
+p {
+    font-size: 150%;
+}
+
+
+.myphoto-image {
+    width: 90%;
+}
+
+
+}
+
+
+@media (max-width: 992px) {
+
+    .myphoto-image {
+        width: 120%;
+    }
+
+
+}
+
+
+
+
+@media (max-width: 360px){
+    .myphoto-image {
+        width: 180%;
+    }
+}
+
+

@@ -1,0 +1,62 @@
+
+
+.home {
+  text-align: center;
+  width: 50%;
+  height: 40%;
+  margin:15% 25%;
+  color: #393E46;
+}
+
+h1 {
+  
+    color: #00ADB5;
+}
+
+
+@media (max-width: 992px) {
+.home{
+    margin-top: 40%;
+}
+.home-subtitle{
+    font-size: 100%;
+}
+
+    
+}
+
+.icon-socialmedia {
+    font-size: 24px;
+    color: #393E46;
+    line-height: 1;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+
+.icon-socialmedia :hover {
+    color: #00ADB5;
+  }
+
+  
+ .home-subtitle {
+     font-size: 120%;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }

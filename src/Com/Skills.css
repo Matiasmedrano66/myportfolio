@@ -1,0 +1,34 @@
+.skills {
+    margin: 5% 20% 10%;
+}
+
+.skill-bar {
+    background-color: #393E46;
+}
+
+@media (min-width: 992px) {
+.skills-bar-group{
+    width: 80%;
+ 
+}
+}
+
+@media (max-width: 992px) {
+    .skills-bar-group{
+        width: 100%;
+     
+    }
+}
+
+.skill-label {
+    font-size: 100%;
+    text-align: left;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+p {
+    text-align: center;
+    color:#393E46;
+    font-style: italic;
+}

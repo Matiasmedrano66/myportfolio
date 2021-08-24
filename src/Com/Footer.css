@@ -1,0 +1,14 @@
+.Footer p  {
+    font-size: 15px;
+}
+
+.Footer {
+    margin-bottom: 0;
+}
+
+
+@media (max-width: 992px) {
+    .Footer p  {
+        font-size: 12px;
+    }
+}

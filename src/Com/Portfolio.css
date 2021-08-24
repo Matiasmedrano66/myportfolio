@@ -1,0 +1,20 @@
+.portfolio {
+    margin: 5% 10% ;
+    background-color: #4f5661;
+    padding: 2% 5% 5% 5%;
+    border-radius: 2%;
+    opacity: 0.9;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.project-group{
+    margin-top: 5%;
+}
+
+.project-card {
+    margin-top: 5px;
+}
+
+
+
+
