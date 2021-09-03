@@ -4,6 +4,24 @@
 
 
 
+.luna{
+  z-index: -1;
+  top:0;
+  bottom: 0;
+  margin:0;
+  width: 25%;
+}
+
+
+.ovni{
+  z-index: -1;
+  width: 20%;
+  margin: 0;
+  top:0;
+  bottom:0;
+  position: relative;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -26,3 +44,19 @@
 }
 
 
+@media (max-width: 996px){
+  .luna{
+    width: 60%;
+    z-index: -1;
+    top:0;
+    bottom: 0;
+    margin: 0%;
+  }
+  
+  .ovni{
+    z-index: -1;
+    width: 25%;
+    margin: 0;
+    top:0;
+  }
+}

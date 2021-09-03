@@ -3,10 +3,10 @@
 .home {
   text-align: center;
   min-width: 80%;
-  margin:5% 10%;
-  padding: 5%;
+  margin: 5% 10% 2%;
+  padding: 10% 5%;
   color: #393E46;
-  background-color: rgba(253, 253, 253, 0.8);
+  background-color: rgba(253, 253, 253, 0.7);
   border-radius: 2%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -47,11 +47,11 @@ h1 {
 
   
  .home-subtitle {
-     font-size: 140%;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    font-size: 140%;
+    overflow: hidden; 
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    margin: 0 auto; 
     animation: 
       typing 3.5s steps(40, end),
       blink-caret .75s step-end infinite;
@@ -109,10 +109,10 @@ h1 {
     }
   }
 
-  @media (max-width: 350px) {
+  @media (max-width: 400px) {
     .home{
-      margin:5% ;
-      width: 90%;
-      height: 40%;
+      margin:20% 10% 15%;
+      width: 80%;
+      height: 50vh;
     }
   }

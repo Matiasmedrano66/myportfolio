@@ -1,10 +1,40 @@
 import './Contact.css';
 import computer from '../images/code.jpg';
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 
 const Contact = () => {
  
         const [message, setMessage] = useState({});
+        const [offsetY, setOffsetY] = useState(0);
+        const [showDiv, setShowDiv] = useState('');
+
+        const handleScroll = () => {
+    
+            setOffsetY(window.pageYOffset);
+        
+            }
+        
+          useEffect(() => {
+            window.addEventListener("scroll", handleScroll);
+            
+        
+            return () => window.removeEventListener("scroll", handleScroll);
+          }, []);
+      
+      
+          useEffect(() =>
+              window.addEventListener("scroll", ()=> {
+                  let element = document.getElementById('contact');
+                  
+               
+          
+                  if(element.getBoundingClientRect().top < window.innerHeight){
+                      setShowDiv('visible');
+                  } 
+          
+              })
+              
+          , []);
 
         const loadMessage = (event) => {
             setMessage({name: document.getElementById("name").value, 
@@ -13,8 +43,9 @@ const Contact = () => {
                         email: document.getElementById("email").value });       
         }
 
+
     return (
-        <div name="contact" id="contact"  className='contact'>
+        <div name="contact" id="contact"  className={`contact fade-top ${showDiv}`} style={{ transform: `translateY(-${offsetY/8}px)`, transition: "all 2s ease-out" }}>
             <h1>Contact me</h1>
             <div className='contact-container'>          
                 <div className='row'>

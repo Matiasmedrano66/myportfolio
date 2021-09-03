@@ -1,9 +1,29 @@
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 import './Home.css';
 
 
 
 const Home = () => {
+
+    const [offsetY, setOffsetY] = useState(0);
+  
+
+
+    const handleScroll = () => {
+    
+      setOffsetY(window.pageYOffset);
+  
+      }
+  
+    useEffect(() => {
+      window.addEventListener("scroll", handleScroll);
+      
+  
+      return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
+
+
 
     
 let screenHeight = window.innerHeight;
@@ -18,7 +38,7 @@ window.onresize = () => {
 const divHeight = {height: screenHeight * 0.5};
 
 return(
-    <div style={divHeight} name="home" id="home" className="home" >
+    <div style={divHeight} name="home" id="home" className="home" style={{ transform: `translateY(${-offsetY/8}px)`, transition: "all 2s ease-out" }}>
  
       
         <h1 className="main-title">Matias Medrano</h1>

@@ -1,5 +1,5 @@
 .contact {
-    margin: 10% 10%;
+    margin: 0% 10% 5%;
     padding: 5%;
     background-color: rgba(228, 216, 220, 0.8);
     border-radius: 2%;
@@ -11,6 +11,7 @@
 
 .contact-container {
     text-align: left;
+    text-decoration: none;
 }
 
 h1 {
@@ -98,3 +99,13 @@ h3{
     
 }
 
+.fadeTop{
+    opacity: 0;
+    transform: translateY(10vh);
+    transition: all 1.5s;
+}
+
+.visible{
+    opacity: 1;
+    transform: translate(0, 0);
+}

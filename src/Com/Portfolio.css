@@ -1,5 +1,5 @@
 .portfolio {
-    margin: 5% 10% ;
+    margin: 0% 10% 0% 10% ;
     background-color: #4f5661;
     padding: 2% 5% 5% 5%;
     border-radius: 2%;
@@ -11,8 +11,13 @@
     margin-top: 5%;
 }
 
+
+
+
 .project-card {
     margin-top: 5px;
+    height: 100%;
+    font-size: 80%;
 }
 
 @media (max-width: 992px) {
@@ -21,6 +26,12 @@
         min-width: 80%;
         margin: 5%;
     }
+    .card-cont {
+        margin-top: 5%;
+        height: 100%;
+        font-size: 80%;
+    }
+    
 
 }
 
