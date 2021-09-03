@@ -48,9 +48,9 @@ useEffect(() => {
       <img src={Luna} className="luna"  style={{ transform: `translateY(${offsetY/6}px)`, transition: "all 2s ease-out" }}/>
       <AboutMe  name="about"/>
       <Skills />
-      <img src={Ovni} className="ovni"  style={{ transform: `translateX(${offsetY/8}px)`,  transition: "all 1s ease-out" }}/>
+      <img src={Ovni} className="ovni"  style={{ transform: `translateX(${offsetY/22}px)`,  transition: "all 1s ease-out" }}/>
       <Portfolio />
-      <img src={Ovni} className="ovni"  style={{ transform: `translateX(${-offsetY/18}px)`, transition: "all 1s ease-out" }}/>
+      <img src={Ovni} className="ovni"  style={{ transform: `translateX(${-offsetY/20}px)`, transition: "all 1s ease-out" }}/>
       <Contact />
       <Footer />
     </div>
