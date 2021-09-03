@@ -32,10 +32,10 @@ const Portfolio = () => {
     ]
 
     return (
-        <div name="portfolio" id="portfolio" className='portfolio' style={{ transform: `translateY(-${offsetY/8}px)`, transition: "all 2s ease-out" }}>
+        <div name="portfolio" id="portfolio" className='portfolio' style={{ transform: `translateY(-${offsetY/25}px)`, transition: "all 2s ease-out" }}>
             <h1>Portfolio</h1>
-            <p className="white-text">A small gallery of some of my projects. Take a look!</p>
-
+            <p className="white-text">This is a small gallery of some of my projects. </p>
+            <p className="white-text">If you want to see more, please scroll down to the next section and get in touch!</p>
             <div class="row project-group">
             { projects.map(project => {
                 return (
@@ -45,7 +45,7 @@ const Portfolio = () => {
                         <div class="card-body">
                             <h5 class="card-title">{project.name}</h5>
                             <p class="card-text">{project.description}</p>
-                            <a href={project.link} target="_blank" class="btn btn-secondary">Open</a>
+                            <a href={project.link} target="_blank" class="btn btn-secondary">Check It Out!</a>
                         </div>
                     </div>
                 </div>

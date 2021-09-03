@@ -45,7 +45,7 @@ const Contact = () => {
 
 
     return (
-        <div name="contact" id="contact"  className={`contact fade-top ${showDiv}`} style={{ transform: `translateY(-${offsetY/8}px)`, transition: "all 2s ease-out" }}>
+        <div name="contact" id="contact"  className={`contact fade-top ${showDiv}`} style={{ transform: `translateY(-${offsetY/25}px)`, transition: "all 2s ease-out" }}>
             <h1>Contact me</h1>
             <div className='contact-container'>          
                 <div className='row'>

@@ -38,7 +38,7 @@ window.onresize = () => {
 const divHeight = {height: screenHeight * 0.5};
 
 return(
-    <div style={divHeight} name="home" id="home" className="home" style={{ transform: `translateY(${-offsetY/8}px)`, transition: "all 2s ease-out" }}>
+    <div style={divHeight} name="home" id="home" className="home" style={{ transform: `translateY(${-offsetY/25}px)`, transition: "all 2s ease-out" }}>
  
       
         <h1 className="main-title">Matias Medrano</h1>

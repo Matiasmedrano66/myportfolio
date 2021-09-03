@@ -24,7 +24,7 @@ const Footer = () => {
 
   const year = new Date().getFullYear();
     return (
-      <footer className='Footer' id='footer' style={{ transform: `translateY(-${offsetY/8}px)`, transition: "all 2s ease-out" }}>
+      <footer className='Footer' id='footer' style={{ transform: `translateY(-${offsetY/25}px)`, transition: "all 2s ease-out" }}>
         <p >Designed and developed by <b>Matias Medrano</b> </p>
         <p>Copyright © {year}</p>
       </footer>

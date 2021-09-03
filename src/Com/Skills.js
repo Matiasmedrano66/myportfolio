@@ -53,9 +53,9 @@ const Skills = () => {
     ];
 
     return ( 
-        <div name="skills" id="skills" className='skills' style={{ transform: `translateY(-${offsetY/8}px)`, transition: "all 2s ease-out" }}>
+        <div name="skills" id="skills" className='skills' style={{ transform: `translateY(-${offsetY/25}px)`, transition: "all 2s ease-out" }}>
             <h1>Skills</h1>
-            <p></p>
+            <p className="black-text">A list some of the tools which I have been recently using to work with.</p>
             <div className='skills-bar-group'>
             {skillsRate.map(skill => { 
                 return (
