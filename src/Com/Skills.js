@@ -43,13 +43,13 @@ const Skills = () => {
     const skillsRate = [
         {name: "HTML", rate: "90%"},
         {name: "Css", rate: "90%"},
-        {name: "Javascript", rate: "90%"},
+        {name: "Javascript", rate: "80%"},
         {name: "React.js", rate: "80%"},
-        {name: "SQL", rate: "80%"},
-        {name: "MongoDB", rate: "65%"},
+        {name: "SQL", rate: "90%"},
+        {name: "MongoDB", rate: "50%"},
         {name: "Node.js", rate: "50%"},
-        {name: "C#", rate: "60%"},
-        {name: "OOP", rate: "60%"},
+        {name: "C#", rate: "80%"},
+        {name: "OOP", rate: "80%"},
     ];
 
     return ( 

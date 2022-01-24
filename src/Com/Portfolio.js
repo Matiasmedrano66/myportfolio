@@ -26,7 +26,7 @@ const Portfolio = () => {
 
 
     const projects = [
-        {name: "MALMA Designs", description: "Simple page aplication of a Clothes store", image: Malma, link: "https://matiasmedrano66.github.io/spaclothesmag/"},
+        {name: "MALMA Designs", description: "Simple page aplication of a Clothes store", image: Malma, link: "https://matiasmedrano66.github.io/malmalandingspa/"},
         {name: "Break Timer", description: "With this Break Timer you can keep track of all your training rutines", image: Timer, link:"https://matiasmedrano66.github.io/trainingtimemachine/"},
         {name: "Expenses Tracker", description: "Keep track of your money expenses with this great app", image: Expenses, link: "https://matiasmedrano66.github.io/expensestracker/"}
     ]
